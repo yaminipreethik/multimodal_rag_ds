@@ -69,10 +69,7 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 python main.py
 
-3. The script will:
-- Extract and summarize all elements from the PDF
-- Index them in a vector store
-- Allow you to query the document with natural language, retrieving answers that may include both text and images
+3. The script will invoke a gradio app, where you will get a link to a UI. In the gradio app, one can upload the pdf and ask any question to receive the answer.
 
 ---
 

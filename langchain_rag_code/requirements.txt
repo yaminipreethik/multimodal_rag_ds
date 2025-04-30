@@ -8,3 +8,4 @@ chromadb
 tiktoken
 python-dotenv
 langchain-community
+gradio
