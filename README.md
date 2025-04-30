@@ -26,7 +26,6 @@ multimodal_rag
 ├── utils.py # Utility functions (e.g., display images)
 ├── main.py # Pipeline orchestration and example usage
 
-<pre> ```text multimodal_rag/ ├── config.py # API key and environment setup ├── pdf_extraction.py # PDF partitioning and element separation ├── summarization.py # Summarization for text, tables, images ├── vectorstore.py # Vector store and retriever setup ├── retrieval.py # Simple retrieval utilities ├── rag_chain.py # RAG pipeline construction ├── utils.py # Utility functions (e.g., display images) └── main.py # Pipeline orchestration and example usage ``` </pre>
 
 ---
 
