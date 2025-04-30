@@ -94,9 +94,3 @@ Summaries are embedded and stored in ChromaDB; original elements are linked for 
 - The RAG chain builds a prompt with retrieved text and images, then generates an answer using GPT-4o.
 
 ---
-
-## References
-
-- [LangChain Inspiration](https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb?ref=blog.langchain.dev)
-- [Multivector Storage](https://python.langchain.com/docs/how_to/multi_vector/)
-
