@@ -17,7 +17,7 @@ This repository provides a modular Python implementation of a **Multi-modal Retr
 ## Project Structure
 
 ```
-multimodal_rag/
+multimodal_rag
 ├── config.py # API key and environment setup
 ├── pdf_extraction.py # PDF partitioning and element separation
 ├── summarization.py # Summarization for text, tables, images
