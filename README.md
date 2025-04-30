@@ -46,20 +46,20 @@ sudo apt-get install poppler-utils tesseract-ocr libmagic-dev
 ### 2. Python Dependencies
 
 Install Python packages:
-
+```
 pip install -U "unstructured[all-docs]" pillow lxml chromadb tiktoken
 langchain langchain-community langchain-openai langchain-groq python_dotenv
-
+```
 
 ### 3. API Keys
 
 Set your API keys in `config.py`:
-
+```
 os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_KEY"
 os.environ["GROQ_API_KEY"] = "YOUR_GROQ_KEY"
 os.environ["LANGCHAIN_API_KEY"] = "YOUR_LANGCHAIN_KEY"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-
+```
 
 ---
 
@@ -67,9 +67,9 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 1. Place your PDF file (e.g., `attention.pdf`) in the project directory.
 2. Run the main script:
-
+```
 python main.py
-
+```
 3. The script will invoke a gradio app, where you will get a link to a UI. In the gradio app, one can upload the pdf and ask any question to receive the answer.
 
 ---
