@@ -23,7 +23,7 @@ def build_prompt(kwargs):
         for text_element in docs_by_type["texts"]:
             context_text += text_element.text
     prompt_template = f"""
-Answer the question based only on the following context, which can include text, tables, and the below image.
+Answer the question based only on the following context. It can include text, tables, and the below image.
 Context: {context_text}
 Question: {user_question}
 """
